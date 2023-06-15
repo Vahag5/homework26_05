@@ -4,7 +4,10 @@ y=input("Nsheq Y-i arjeq@`", )
 y=float(y)
 if x >= y:
     s = x-y
-else: 
+else:
     s = -(x-y)
-s=s/(x+y)
-print(s)
+if x == -y:
+    print('Haytararum chi karox linel 0')
+else :
+    s=s/(x+y)
+    print(s)
